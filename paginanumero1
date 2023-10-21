@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <base href="https://paginanumero1.com">
+  <title>Mi página web</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Esta es mi página web">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #ffffff;
+    }
+
+    h1 {
+        color: #000000;
+      font-size: 24px;
+    }
+
+    p {
+      color: #000000;
+      font-size: 16px;
+    }
+
+    img {
+      width: 100px;
+    }
+
+    a {
+      color: #000000;
+      text-decoration: none;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mi página web</h1>
+  <p>Este es el contenido de mi página web.</p>
+  <img src="imagen.jpg" alt="Imagen">
+  <p>Este es un enlace a otra página: <a href="otra-pagina.html">Otra página</a></p>
+  <ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+  </ul>
+</body>
+</html>
